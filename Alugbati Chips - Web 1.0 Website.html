@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alugbati Chips - Official Website</title>
+<style>
+body{margin:0;padding:8px;font-family:Verdana,Arial,sans-serif;font-size:14px;line-height:1.5;color:#1b2e12;
+background-color:#d8f0c0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cpath d='M20 34C6 24 5 12 13 9c4-1 7 2 7 4 0-2 3-5 7-4 8 3 7 15-7 25z' fill='%23b6e08a' opacity='.55'/%3E%3C/svg%3E")}
+a{color:#0000ee;text-decoration:underline}a:visited{color:#551a8b}
+#wrap{max-width:800px;margin:0 auto;background:#fffbe6;border:4px ridge #2e6b1f}
+.box{border:3px double #2e6b1f;margin:10px;padding:10px;background:#fffdf0}
+h1,h2,h3{font-family:"Times New Roman",serif;margin:.3em 0}
+h2{background:#2e6b1f;color:#ffe066;padding:4px 8px;border:2px outset #6fbf3a;font-size:20px}
+header{text-align:center;padding:10px;background:linear-gradient(#6fbf3a,#2e6b1f);border-bottom:4px ridge #ffd23f}
+header h1{font-size:clamp(30px,8vw,56px);letter-spacing:3px;color:#ffe066;text-shadow:3px 3px 0 #0f3d0a,-1px -1px 0 #0f3d0a;margin:0}
+.tag{color:#fff;font-style:italic;font-size:18px;font-weight:bold}
+.mq{background:#0f3d0a;color:#ffe066;font-weight:bold;padding:3px;border-bottom:2px solid #ffd23f}
+nav{display:flex;flex-wrap:wrap;justify-content:center;gap:5px;padding:8px;background:#c4e8a0;border-bottom:3px groove #2e6b1f}
+nav a{display:inline-block;padding:4px 9px;border:3px outset #fff;font-weight:bold;font-size:13px;text-decoration:none;color:#000}
+nav a:nth-child(1){background:#ff8a80}nav a:nth-child(2){background:#ffd23f}nav a:nth-child(3){background:#9be564}
+nav a:nth-child(4){background:#80d8ff}nav a:nth-child(5){background:#ffab40}nav a:nth-child(6){background:#e1a8ff}nav a:nth-child(7){background:#fff59d}
+nav a:active{border-style:inset}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.row>*{flex:1 1 220px}
+.ctr{text-align:center}
+.big{display:inline-block;padding:10px 20px;font-size:18px;font-weight:bold;background:#ffd23f;border:4px outset #fff3b0;color:#0000ee;cursor:pointer}
+.big:active{border-style:inset}
+.hl{background:#fff59d;border:3px dashed #2e6b1f;padding:8px;font-weight:bold;text-align:center}
+.note{font-size:12px;font-style:italic;border-top:1px dotted #2e6b1f;padding-top:4px}
+.grid{display:flex;flex-wrap:wrap;gap:8px}.grid>div{flex:1 1 170px;border:3px outset #fff;padding:8px}
+.b1{background:#c8f0a0}.b2{background:#ffe9a0}.b3{background:#bfe9ff}.b4{background:#f3c8ff}
+ul.ing{list-style:none;padding:0}ul.ing li{display:flex;align-items:center;gap:8px;padding:4px;border-bottom:1px dotted #2e6b1f}
+ul.ing li:nth-child(odd){background:#eaf7d6}
+.steps{display:flex;flex-wrap:wrap;align-items:stretch;justify-content:center;gap:4px}
+.step{flex:1 1 150px;max-width:180px;border:3px ridge #2e6b1f;background:#eaf7d6;padding:6px;text-align:center}
+.arr{align-self:center;font-size:28px;font-weight:bold;color:#e08a00}
+.gal{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.gal figure{margin:0;border:5px ridge #b8860b;background:#fff;padding:5px;width:170px;text-align:center}
+.gal figcaption{font-size:12px;font-weight:bold}
+.blink{animation:b 1s steps(2,start) infinite}@keyframes b{to{visibility:hidden}}
+.bounce{display:inline-block;animation:j 1s steps(3) infinite}@keyframes j{50%{transform:translateY(-6px)}}
+.spin{display:inline-block;animation:s 3s steps(8) infinite}@keyframes s{to{transform:rotate(360deg)}}
+.counter{font-family:"Courier New",monospace;background:#000;color:#0f0;padding:2px 6px;border:2px inset #888;letter-spacing:2px}
+.badge{display:inline-block;border:2px outset #ccc;background:#ddd;font-size:11px;padding:3px 6px;margin:3px;color:#000}
+.uc{display:inline-block;background:repeating-linear-gradient(45deg,#ffd23f 0 10px,#222 10px 20px);padding:4px}
+.uc span{display:block;background:#fff;padding:2px 8px;font-weight:bold;font-size:12px}
+table.c{width:100%;border-collapse:collapse}table.c td{border:2px solid #2e6b1f;padding:6px;background:#fff}
+table.c td:first-child{width:48px;text-align:center;background:#eaf7d6}
+footer{text-align:center;background:#2e6b1f;color:#fff;padding:10px;border-top:4px ridge #ffd23f;font-size:12px}
+footer a{color:#ffe066}
+svg{max-width:100%;height:auto}
+html{scroll-behavior:smooth;scroll-padding-top:6px}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="leaf" viewBox="0 0 100 100"><path d="M50 92C8 62 3 24 30 14c12-4 20 4 20 11 0-7 8-15 20-11 27 10 22 48-20 78z" fill="#4caf2a" stroke="#1d5a12" stroke-width="3"/><path d="M50 90V30M50 55L30 38M50 55L70 38M50 72L36 60M50 72L64 60" stroke="#b8f08a" stroke-width="3" fill="none"/></symbol>
+<symbol id="chip" viewBox="0 0 60 50"><path d="M5 30C2 12 25 2 45 8c14 5 15 25 5 35-12 8-42 8-45-13z" fill="#e8c840" stroke="#8a6a00" stroke-width="2.5"/><path d="M15 25C25 12 35 15 45 20M20 33C28 26 38 28 44 32" stroke="#6fae2a" stroke-width="3" fill="none"/><circle cx="20" cy="18" r="1.5" fill="#8a6a00"/><circle cx="40" cy="35" r="1.5" fill="#8a6a00"/></symbol>
+<symbol id="bowl" viewBox="0 0 200 110"><use href="#chip" x="30" y="10" width="60" height="50"/><use href="#chip" x="85" y="2" width="65" height="52" transform="rotate(12 117 28)"/><use href="#chip" x="60" y="25" width="60" height="50"/><path d="M10 55h180c0 40-35 52-90 52S10 95 10 55z" fill="#d9822b" stroke="#6b3a0a" stroke-width="4"/><path d="M25 70h150" stroke="#ffd23f" stroke-width="5" stroke-dasharray="10 8"/></symbol>
+<symbol id="pack" viewBox="0 0 90 130"><path d="M5 8l8 6 8-6 8 6 8-6 8 6 8-6 8 6 8-6 8 6 8-6v114l-8 6-8-6-8 6-8-6-8 6-8-6-8 6-8-6-8 6-8-6-8 6z" fill="#2e8b2a" stroke="#0f3d0a" stroke-width="3"/><rect x="12" y="35" width="66" height="50" fill="#fff59d" stroke="#0f3d0a" stroke-width="2"/><text x="45" y="55" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f3d0a" font-family="Arial">ALUGBATI</text><text x="45" y="70" font-size="14" font-weight="bold" text-anchor="middle" fill="#c05a00" font-family="Arial">CHIPS</text><use href="#leaf" x="28" y="88" width="34" height="34"/><use href="#chip" x="25" y="12" width="40" height="22"/></symbol>
+</defs></svg>
+
+<div id="wrap">
+<div class="mq"><marquee scrollamount="4">*** Welcome to our website! *** Crunch into something naturally green! *** Sign our guestbook (coming soon)! ***</marquee></div>
+<header id="home">
+<svg width="120" height="70" viewBox="0 0 240 110" aria-label="Alugbati Chips logo"><use href="#leaf" x="0" y="10" width="95" height="95"/><use href="#bowl" x="85" y="0" width="150" height="82"/></svg>
+<h1>ALUGBATI CHIPS</h1>
+<div class="tag">Crunch Into Something Naturally Green!</div>
+<p style="color:#fff;margin:6px 0">Welcome to the official Alugbati Chips website! Discover a delicious and creative way to enjoy a locally inspired vegetable snack.</p>
+</header>
+<nav>
+<a href="#home">Home</a><a href="#about">About Our Product</a><a href="#ingredients">Ingredients</a><a href="#benefits">Benefits</a><a href="#made">How It's Made</a><a href="#gallery">Gallery</a><a href="#contact">Contact Us</a>
+</nav>
+
+<div class="ctr" style="padding:8px">
+<h2 style="display:inline-block;margin:0"><span class="blink">*</span> Welcome to our website! <span class="blink">*</span></h2><br>
+Visitors: <span class="counter">000128</span>
+<span class="badge">Best viewed at 800 &times; 600 resolution</span>
+</div>
+
+<div class="box">
+<div class="ctr">
+<svg width="420" viewBox="0 0 420 250" style="border:4px ridge #b8860b;background:linear-gradient(#fff9d0,#d8f0c0)" aria-label="Illustration: bowl of alugbati chips, fresh leaves and a package">
+<g transform="rotate(-20 60 190)"><use href="#leaf" x="10" y="130" width="90" height="90"/></g>
+<g transform="rotate(15 150 80)"><use href="#leaf" x="100" y="30" width="70" height="70"/></g>
+<use href="#bowl" x="90" y="70" width="230" height="126"/>
+<use href="#pack" x="310" y="90" width="90" height="130"/>
+<g transform="rotate(25 355 210)"><use href="#leaf" x="320" y="190" width="55" height="55"/></g>
+<text x="12" y="30" font-size="22" fill="#e08a00">&#10022;</text><text x="380" y="40" font-size="18" fill="#e08a00">&#10022;</text><text x="210" y="45" font-size="14" fill="#2e6b1f">&#10022;</text>
+<text x="205" y="236" font-size="13" font-weight="bold" text-anchor="middle" fill="#0f3d0a" font-family="Comic Sans MS,Arial">Hand-drawn illustration!</text>
+</svg>
+</div>
+<h3>Meet Alugbati Chips!</h3>
+<p>Meet Alugbati Chips &mdash; a unique snack inspired by alugbati, also known as Malabar spinach. Made to offer a creative twist on traditional chips, this crunchy snack brings a local vegetable into a fun and flavorful form. It is a snack concept that combines creativity, local ingredients, and a love for delicious food.</p>
+<p class="ctr"><a class="big" href="#about">Discover Our Product!</a></p>
+</div>
+
+<div class="box" id="about">
+<h2>What Are Alugbati Chips?</h2>
+<div class="row">
+<div>
+<p>Alugbati Chips are a vegetable-based snack inspired by alugbati, a leafy green plant commonly used in Filipino cooking. Alugbati is known for its soft leaves and distinctive green color. By transforming this familiar vegetable into a crispy snack, Alugbati Chips offer a creative alternative to ordinary chips.</p>
+<p>Our product aims to introduce people to a different way of enjoying vegetables while promoting creativity, local food resources, and an appreciation for Filipino ingredients.</p>
+</div>
+<div class="ctr"><svg width="200" viewBox="0 0 200 120" style="border:3px ridge #2e6b1f;background:#fff"><use href="#leaf" x="5" y="30" width="70" height="70"/><use href="#leaf" x="35" y="50" width="55" height="55"/><use href="#bowl" x="85" y="30" width="110" height="60"/><text x="100" y="112" font-size="10" text-anchor="middle" fill="#2e6b1f">Leaves &rarr; Chips</text></svg></div>
+</div>
+<div class="hl">OUR PRODUCT IDEA: A crispy, flavorful, and locally inspired snack made with alugbati.</div>
+</div>
+
+<div class="box" id="ingredients">
+<h2>What's Inside Our Chips?</h2>
+<ul class="ing">
+<li><svg width="34" height="34"><use href="#leaf" width="34" height="34"/></svg> <b>Fresh alugbati leaves</b></li>
+<li><svg width="34" height="34" viewBox="0 0 34 34"><path d="M17 3C10 13 8 18 8 23a9 9 0 0018 0c0-5-2-10-9-20z" fill="#ffd23f" stroke="#b8860b" stroke-width="2"/></svg> <b>Cooking oil</b></li>
+<li><svg width="34" height="34" viewBox="0 0 34 34"><rect x="5" y="9" width="24" height="20" rx="3" fill="#fff" stroke="#999" stroke-width="2"/><path d="M5 9l12-6 12 6" fill="#f0e0b0" stroke="#999" stroke-width="2"/></svg> <b>Flour or starch</b> <small>(if used in the actual recipe)</small></li>
+<li><svg width="34" height="34" viewBox="0 0 34 34"><rect x="10" y="12" width="14" height="18" fill="#eee" stroke="#666" stroke-width="2"/><rect x="9" y="6" width="16" height="6" fill="#bbb" stroke="#666" stroke-width="2"/><circle cx="14" cy="9" r="1" fill="#333"/><circle cx="20" cy="9" r="1" fill="#333"/></svg> <b>Salt</b></li>
+<li><svg width="34" height="34" viewBox="0 0 34 34"><circle cx="11" cy="22" r="5" fill="#e53935"/><circle cx="22" cy="14" r="5" fill="#fb8c00"/><circle cx="21" cy="25" r="4" fill="#7cb342"/></svg> <b>Seasonings</b> <small>(depending on the chosen flavor)</small></li>
+</ul>
+<p class="note">Our ingredients are selected to create a flavorful and crispy snack. The final ingredient list depends on our actual preparation method and recipe.</p>
+</div>
+
+<div class="box" id="benefits">
+<h2>Why Try Alugbati Chips?</h2>
+<div class="grid">
+<div class="b1"><h3>1. Locally Inspired</h3>Uses alugbati, a familiar leafy vegetable in Filipino cuisine.</div>
+<div class="b2"><h3>2. A Creative Snack</h3>Offers a different way to enjoy a vegetable-based food.</div>
+<div class="b3"><h3>3. Crispy and Flavorful</h3>Designed to provide a satisfying crunch with delicious seasoning.</div>
+<div class="b4"><h3>4. Supports Food Creativity</h3>Shows how familiar local ingredients can be transformed into innovative snack products.</div>
+</div>
+<p class="ctr"><svg width="110" viewBox="0 0 110 110"><use href="#leaf" width="100" height="100"/><circle cx="35" cy="48" r="4" fill="#000"/><circle cx="62" cy="48" r="4" fill="#000"/><path d="M36 62q13 14 27 0" stroke="#000" stroke-width="3" fill="none"/><use href="#chip" x="66" y="60" width="38" height="32"/></svg><br><small>Leafy says: "Have a chip!"</small></p>
+</div>
+
+<div class="box" id="made">
+<h2>From Fresh Leaves to Crispy Chips!</h2>
+<div class="steps">
+<div class="step"><svg width="50" height="50"><use href="#leaf" width="50" height="50"/></svg><br><b>STEP 1 &mdash; SELECT</b><br>Choose fresh, clean alugbati leaves.</div>
+<div class="arr">&rarr;</div>
+<div class="step"><svg width="50" height="50" viewBox="0 0 50 50"><path d="M10 25h30l-4 20H14z" fill="#80d8ff" stroke="#0277bd" stroke-width="2"/><circle cx="18" cy="12" r="3" fill="#80d8ff"/><circle cx="30" cy="8" r="3" fill="#80d8ff"/></svg><br><b>STEP 2 &mdash; PREPARE</b><br>Wash the leaves properly and prepare the ingredients according to the recipe.</div>
+<div class="arr">&rarr;</div>
+<div class="step"><svg width="50" height="50" viewBox="0 0 50 50"><ellipse cx="25" cy="32" rx="20" ry="9" fill="#555" stroke="#222" stroke-width="2"/><rect x="42" y="28" width="7" height="5" fill="#333"/><use href="#chip" x="12" y="14" width="26" height="20"/></svg><br><b>STEP 3 &mdash; COOK</b><br>Prepare the chips using the chosen coating and cooking method until they reach the desired crispiness.</div>
+<div class="arr">&rarr;</div>
+<div class="step"><svg width="40" height="55"><use href="#pack" width="40" height="55"/></svg><br><b>STEP 4 &mdash; PACK</b><br>Allow the chips to cool appropriately, then place them in clean, food-safe packaging.</div>
+</div>
+<p class="note">Note: The actual preparation process may vary depending on the final recipe.</p>
+</div>
+
+<div class="box" id="gallery">
+<h2>A Little Green, A Lot of Crunch!</h2>
+<div class="gal">
+<figure><svg viewBox="0 0 90 130" width="100%" height="120"><use href="#pack" width="90" height="130"/></svg><figcaption>Package of Alugbati Chips</figcaption></figure>
+<figure><svg viewBox="0 0 100 100" width="100%" height="120"><use href="#leaf" x="0" y="10" width="60" height="60"/><use href="#leaf" x="35" y="30" width="60" height="60"/></svg><figcaption>Fresh alugbati leaves</figcaption></figure>
+<figure><svg viewBox="0 0 200 110" width="100%" height="120"><use href="#bowl" width="200" height="110"/></svg><figcaption>A bowl of crispy chips</figcaption></figure>
+<figure><svg viewBox="0 0 120 110" width="100%" height="120"><circle cx="50" cy="40" r="22" fill="#ffcc99" stroke="#333" stroke-width="2"/><circle cx="42" cy="36" r="2.5"/><circle cx="58" cy="36" r="2.5"/><path d="M38 47q12 12 24 0" stroke="#000" stroke-width="2.5" fill="none"/><rect x="30" y="64" width="40" height="40" fill="#4caf2a" stroke="#333" stroke-width="2"/><use href="#chip" x="68" y="38" width="36" height="30"/></svg><figcaption>Enjoying the finished snack!</figcaption></figure>
+</div>
+<p class="note ctr">All images are original illustrations, not real product photographs.</p>
+</div>
+
+<div class="box">
+<h2><span class="spin">&#10022;</span> Did You Know? <span class="spin">&#10022;</span></h2>
+<ul>
+<li><svg width="14" height="14"><use href="#leaf" width="14" height="14"/></svg> Alugbati is also known as Malabar spinach.</li>
+<li><svg width="14" height="14"><use href="#leaf" width="14" height="14"/></svg> It is a leafy vegetable used in various dishes, including Filipino home cooking.</li>
+<li><svg width="14" height="14"><use href="#leaf" width="14" height="14"/></svg> Its leaves have a distinctive green color.</li>
+<li><svg width="14" height="14"><use href="#leaf" width="14" height="14"/></svg> Alugbati Chips are a creative way to explore new uses for familiar local ingredients.</li>
+</ul>
+</div>
+
+<div class="box" id="contact">
+<h2>Want to Know More About Alugbati Chips?</h2>
+<table class="c">
+<tr><td><svg width="36" height="36" viewBox="0 0 36 36"><path d="M4 14q14-10 28 0v5h-7v-4q-7-3-14 0v4H4z" fill="#d32f2f" stroke="#600" stroke-width="2"/><rect x="12" y="20" width="12" height="10" rx="2" fill="#333"/></svg></td><td><b>Phone Number:</b> <a href="tel:+639758724266">+63 975 8724 266</a></td></tr>
+<tr><td><svg width="36" height="36" viewBox="0 0 36 36"><rect x="3" y="8" width="30" height="20" fill="#fff" stroke="#333" stroke-width="2"/><path d="M3 8l15 12L33 8" fill="none" stroke="#333" stroke-width="2"/></svg></td><td><b>Email Address:</b> <a href="mailto:litzraeven@gmail.com">litzraeven@gmail.com</a></td></tr>
+<tr><td><svg width="36" height="36" viewBox="0 0 36 36"><path d="M18 33C8 20 6 15 6 12a12 12 0 0124 0c0 3-2 8-12 21z" fill="#e53935" stroke="#600" stroke-width="2"/><circle cx="18" cy="12" r="4" fill="#fff"/></svg></td><td><b>Location:</b> The Lost City of Biringan <span class="blink">?</span><br><small>(a playful, mysterious place!)</small></td></tr>
+</table>
+</div>
+
+<footer>
+<p><span class="bounce">&#9733;</span> <b>Thank you for visiting!</b> <span class="bounce">&#9733;</span> Come back soon! <span class="bounce">&#9733;</span></p>
+<div class="uc"><span>&#9888; UNDER CONSTRUCTION &#9888;</span></div>
+<p>&copy; 2026 Alugbati Chips | All Rights Reserved<br>Made with creativity and a love for local flavors!</p>
+<p><a href="#home">&uarr; Back to top</a></p>
+</footer>
+</div>
+</body>
+</html>
